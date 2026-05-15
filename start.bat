@@ -1,0 +1,6 @@
+@echo off
+echo Starting PharmaCare...
+start cmd /k "cd /d C:\Users\pragathi\OneDrive\Documents\Desktop\phramacy\backend && node server.js"
+timeout /t 3
+start cmd /k "cd /d C:\Users\pragathi\OneDrive\Documents\Desktop\phramacy\frontend && npm start"
+echo Both servers starting...
